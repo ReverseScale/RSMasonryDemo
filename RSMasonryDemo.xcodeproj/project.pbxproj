@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3499C7751F5F910500D5A23F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7741F5F910500D5A23F /* main.m */; };
+		3499C7781F5F910500D5A23F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7771F5F910500D5A23F /* AppDelegate.m */; };
+		3499C77B1F5F910500D5A23F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C77A1F5F910500D5A23F /* ViewController.m */; };
+		3499C77E1F5F910500D5A23F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3499C77C1F5F910500D5A23F /* Main.storyboard */; };
+		3499C7801F5F910500D5A23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3499C77F1F5F910500D5A23F /* Assets.xcassets */; };
+		3499C7831F5F910500D5A23F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3499C7811F5F910500D5A23F /* LaunchScreen.storyboard */; };
+		3499C78E1F5F910600D5A23F /* RSMasonryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C78D1F5F910600D5A23F /* RSMasonryDemoTests.m */; };
+		3499C7991F5F910600D5A23F /* RSMasonryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7981F5F910600D5A23F /* RSMasonryDemoUITests.m */; };
+		3499C7C61F5F93EE00D5A23F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7C51F5F93EE00D5A23F /* TableViewController.m */; };
+		3499C7DD1F5F987400D5A23F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7C91F5F987400D5A23F /* BaseViewController.m */; };
+		3499C7DE1F5F987400D5A23F /* EighthLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7CC1F5F987400D5A23F /* EighthLayerTower.m */; };
+		3499C7DF1F5F987400D5A23F /* FifthLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7CE1F5F987400D5A23F /* FifthLayerTower.m */; };
+		3499C7E01F5F987400D5A23F /* FirstLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7D01F5F987400D5A23F /* FirstLayerTower.m */; };
+		3499C7E11F5F987400D5A23F /* FourthLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7D21F5F987400D5A23F /* FourthLayerTower.m */; };
+		3499C7E21F5F987400D5A23F /* NinthLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7D41F5F987400D5A23F /* NinthLayerTower.m */; };
+		3499C7E31F5F987400D5A23F /* SecondLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7D61F5F987400D5A23F /* SecondLayerTower.m */; };
+		3499C7E41F5F987400D5A23F /* SeventhLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7D81F5F987400D5A23F /* SeventhLayerTower.m */; };
+		3499C7E51F5F987400D5A23F /* SixthLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7DA1F5F987400D5A23F /* SixthLayerTower.m */; };
+		3499C7E61F5F987400D5A23F /* ThirdLayerTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C7DC1F5F987400D5A23F /* ThirdLayerTower.m */; };
+		3499C8B61F5FE96100D5A23F /* NetworkManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C8B11F5FE96100D5A23F /* NetworkManagement.m */; };
+		3499C8B71F5FE96100D5A23F /* NetworkRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C8B41F5FE96100D5A23F /* NetworkRouter.m */; };
+		3499C8C41F5FF4A500D5A23F /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C8BF1F5FF4A500D5A23F /* TestModel.m */; };
+		3499C8C51F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3499C8C21F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.m */; };
+		3499C8C61F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3499C8C31F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.xib */; };
+		ABF3EEE65B47C5C9ABC42AF0 /* libPods-RSMasonryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FFC043DAC390DEAB05E3EE /* libPods-RSMasonryDemo.a */; };
+		CF64DDC8FDEE6BF3F3C04B8C /* libPods-RSMasonryDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA76FEDD49B5009CCA01740F /* libPods-RSMasonryDemoUITests.a */; };
+		DFFC833284C589BB954646FA /* libPods-RSMasonryDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE78BBD7154F35FEBA40A7CB /* libPods-RSMasonryDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3499C78A1F5F910500D5A23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3499C7681F5F910500D5A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3499C76F1F5F910500D5A23F;
+			remoteInfo = RSMasonryDemo;
+		};
+		3499C7951F5F910600D5A23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3499C7681F5F910500D5A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3499C76F1F5F910500D5A23F;
+			remoteInfo = RSMasonryDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B7F58E57E9D4CFA86AFD71 /* Pods-RSMasonryDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSMasonryDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSMasonryDemoUITests/Pods-RSMasonryDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FD3E33D2369B2EE49CC4D21 /* Pods-RSMasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSMasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSMasonryDemo/Pods-RSMasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3499C7701F5F910500D5A23F /* RSMasonryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSMasonryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3499C7741F5F910500D5A23F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3499C7761F5F910500D5A23F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3499C7771F5F910500D5A23F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3499C7791F5F910500D5A23F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3499C77A1F5F910500D5A23F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3499C77D1F5F910500D5A23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3499C77F1F5F910500D5A23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3499C7821F5F910500D5A23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3499C7841F5F910500D5A23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3499C7891F5F910500D5A23F /* RSMasonryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSMasonryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3499C78D1F5F910600D5A23F /* RSMasonryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMasonryDemoTests.m; sourceTree = "<group>"; };
+		3499C78F1F5F910600D5A23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3499C7941F5F910600D5A23F /* RSMasonryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSMasonryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3499C7981F5F910600D5A23F /* RSMasonryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMasonryDemoUITests.m; sourceTree = "<group>"; };
+		3499C79A1F5F910600D5A23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3499C7C41F5F93EE00D5A23F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3499C7C51F5F93EE00D5A23F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3499C7C81F5F987400D5A23F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3499C7C91F5F987400D5A23F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3499C7CB1F5F987400D5A23F /* EighthLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EighthLayerTower.h; sourceTree = "<group>"; };
+		3499C7CC1F5F987400D5A23F /* EighthLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EighthLayerTower.m; sourceTree = "<group>"; };
+		3499C7CD1F5F987400D5A23F /* FifthLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthLayerTower.h; sourceTree = "<group>"; };
+		3499C7CE1F5F987400D5A23F /* FifthLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthLayerTower.m; sourceTree = "<group>"; };
+		3499C7CF1F5F987400D5A23F /* FirstLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLayerTower.h; sourceTree = "<group>"; };
+		3499C7D01F5F987400D5A23F /* FirstLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLayerTower.m; sourceTree = "<group>"; };
+		3499C7D11F5F987400D5A23F /* FourthLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthLayerTower.h; sourceTree = "<group>"; };
+		3499C7D21F5F987400D5A23F /* FourthLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthLayerTower.m; sourceTree = "<group>"; };
+		3499C7D31F5F987400D5A23F /* NinthLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinthLayerTower.h; sourceTree = "<group>"; };
+		3499C7D41F5F987400D5A23F /* NinthLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NinthLayerTower.m; sourceTree = "<group>"; };
+		3499C7D51F5F987400D5A23F /* SecondLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLayerTower.h; sourceTree = "<group>"; };
+		3499C7D61F5F987400D5A23F /* SecondLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLayerTower.m; sourceTree = "<group>"; };
+		3499C7D71F5F987400D5A23F /* SeventhLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeventhLayerTower.h; sourceTree = "<group>"; };
+		3499C7D81F5F987400D5A23F /* SeventhLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventhLayerTower.m; sourceTree = "<group>"; };
+		3499C7D91F5F987400D5A23F /* SixthLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthLayerTower.h; sourceTree = "<group>"; };
+		3499C7DA1F5F987400D5A23F /* SixthLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthLayerTower.m; sourceTree = "<group>"; };
+		3499C7DB1F5F987400D5A23F /* ThirdLayerTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdLayerTower.h; sourceTree = "<group>"; };
+		3499C7DC1F5F987400D5A23F /* ThirdLayerTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdLayerTower.m; sourceTree = "<group>"; };
+		3499C7E71F5FA4A100D5A23F /* LibHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibHeader.h; sourceTree = "<group>"; };
+		3499C8AF1F5FE96100D5A23F /* InterfaceConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceConst.h; sourceTree = "<group>"; };
+		3499C8B01F5FE96100D5A23F /* NetworkManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManagement.h; sourceTree = "<group>"; };
+		3499C8B11F5FE96100D5A23F /* NetworkManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManagement.m; sourceTree = "<group>"; };
+		3499C8B31F5FE96100D5A23F /* NetworkRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRouter.h; sourceTree = "<group>"; };
+		3499C8B41F5FE96100D5A23F /* NetworkRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRouter.m; sourceTree = "<group>"; };
+		3499C8BE1F5FF4A500D5A23F /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		3499C8BF1F5FF4A500D5A23F /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		3499C8C11F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EighthLayerTowerTableViewCell.h; sourceTree = "<group>"; };
+		3499C8C21F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EighthLayerTowerTableViewCell.m; sourceTree = "<group>"; };
+		3499C8C31F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EighthLayerTowerTableViewCell.xib; sourceTree = "<group>"; };
+		96ADD6244969F231E6E6946C /* Pods-RSMasonryDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSMasonryDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSMasonryDemoUITests/Pods-RSMasonryDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B59805209C17C3226F6622D8 /* Pods-RSMasonryDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSMasonryDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSMasonryDemoTests/Pods-RSMasonryDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA76FEDD49B5009CCA01740F /* libPods-RSMasonryDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSMasonryDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D041C58AB230E08089FE9302 /* Pods-RSMasonryDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSMasonryDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSMasonryDemoTests/Pods-RSMasonryDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FFC043DAC390DEAB05E3EE /* libPods-RSMasonryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSMasonryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB71E3756F015783AA57E6D6 /* Pods-RSMasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSMasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSMasonryDemo/Pods-RSMasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE78BBD7154F35FEBA40A7CB /* libPods-RSMasonryDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSMasonryDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3499C76D1F5F910500D5A23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF3EEE65B47C5C9ABC42AF0 /* libPods-RSMasonryDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3499C7861F5F910500D5A23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFC833284C589BB954646FA /* libPods-RSMasonryDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3499C7911F5F910600D5A23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF64DDC8FDEE6BF3F3C04B8C /* libPods-RSMasonryDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBC8B0230B4536043C09FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FFC043DAC390DEAB05E3EE /* libPods-RSMasonryDemo.a */,
+				EE78BBD7154F35FEBA40A7CB /* libPods-RSMasonryDemoTests.a */,
+				BA76FEDD49B5009CCA01740F /* libPods-RSMasonryDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3499C7671F5F910500D5A23F = {
+			isa = PBXGroup;
+			children = (
+				3499C7721F5F910500D5A23F /* RSMasonryDemo */,
+				3499C78C1F5F910600D5A23F /* RSMasonryDemoTests */,
+				3499C7971F5F910600D5A23F /* RSMasonryDemoUITests */,
+				3499C7711F5F910500D5A23F /* Products */,
+				49615996E99A95D3187A77E4 /* Pods */,
+				2FBC8B0230B4536043C09FA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3499C7711F5F910500D5A23F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3499C7701F5F910500D5A23F /* RSMasonryDemo.app */,
+				3499C7891F5F910500D5A23F /* RSMasonryDemoTests.xctest */,
+				3499C7941F5F910600D5A23F /* RSMasonryDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3499C7721F5F910500D5A23F /* RSMasonryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3499C7E71F5FA4A100D5A23F /* LibHeader.h */,
+				3499C7761F5F910500D5A23F /* AppDelegate.h */,
+				3499C7771F5F910500D5A23F /* AppDelegate.m */,
+				3499C7C41F5F93EE00D5A23F /* TableViewController.h */,
+				3499C7C51F5F93EE00D5A23F /* TableViewController.m */,
+				3499C7791F5F910500D5A23F /* ViewController.h */,
+				3499C77A1F5F910500D5A23F /* ViewController.m */,
+				3499C7C71F5F987400D5A23F /* BaseViewController */,
+				3499C7CA1F5F987400D5A23F /* Tower */,
+				3499C8AA1F5FE96100D5A23F /* Network */,
+				3499C77C1F5F910500D5A23F /* Main.storyboard */,
+				3499C77F1F5F910500D5A23F /* Assets.xcassets */,
+				3499C7811F5F910500D5A23F /* LaunchScreen.storyboard */,
+				3499C7841F5F910500D5A23F /* Info.plist */,
+				3499C7731F5F910500D5A23F /* Supporting Files */,
+			);
+			path = RSMasonryDemo;
+			sourceTree = "<group>";
+		};
+		3499C7731F5F910500D5A23F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3499C7741F5F910500D5A23F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3499C78C1F5F910600D5A23F /* RSMasonryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3499C78D1F5F910600D5A23F /* RSMasonryDemoTests.m */,
+				3499C78F1F5F910600D5A23F /* Info.plist */,
+			);
+			path = RSMasonryDemoTests;
+			sourceTree = "<group>";
+		};
+		3499C7971F5F910600D5A23F /* RSMasonryDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3499C7981F5F910600D5A23F /* RSMasonryDemoUITests.m */,
+				3499C79A1F5F910600D5A23F /* Info.plist */,
+			);
+			path = RSMasonryDemoUITests;
+			sourceTree = "<group>";
+		};
+		3499C7C71F5F987400D5A23F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3499C7C81F5F987400D5A23F /* BaseViewController.h */,
+				3499C7C91F5F987400D5A23F /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		3499C7CA1F5F987400D5A23F /* Tower */ = {
+			isa = PBXGroup;
+			children = (
+				3499C8BD1F5FF4A500D5A23F /* Model */,
+				3499C8C01F5FF4A500D5A23F /* View */,
+				3499C7CF1F5F987400D5A23F /* FirstLayerTower.h */,
+				3499C7D01F5F987400D5A23F /* FirstLayerTower.m */,
+				3499C7D51F5F987400D5A23F /* SecondLayerTower.h */,
+				3499C7D61F5F987400D5A23F /* SecondLayerTower.m */,
+				3499C7DB1F5F987400D5A23F /* ThirdLayerTower.h */,
+				3499C7DC1F5F987400D5A23F /* ThirdLayerTower.m */,
+				3499C7D11F5F987400D5A23F /* FourthLayerTower.h */,
+				3499C7D21F5F987400D5A23F /* FourthLayerTower.m */,
+				3499C7CD1F5F987400D5A23F /* FifthLayerTower.h */,
+				3499C7CE1F5F987400D5A23F /* FifthLayerTower.m */,
+				3499C7D91F5F987400D5A23F /* SixthLayerTower.h */,
+				3499C7DA1F5F987400D5A23F /* SixthLayerTower.m */,
+				3499C7D71F5F987400D5A23F /* SeventhLayerTower.h */,
+				3499C7D81F5F987400D5A23F /* SeventhLayerTower.m */,
+				3499C7CB1F5F987400D5A23F /* EighthLayerTower.h */,
+				3499C7CC1F5F987400D5A23F /* EighthLayerTower.m */,
+				3499C7D31F5F987400D5A23F /* NinthLayerTower.h */,
+				3499C7D41F5F987400D5A23F /* NinthLayerTower.m */,
+			);
+			path = Tower;
+			sourceTree = "<group>";
+		};
+		3499C8AA1F5FE96100D5A23F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3499C8AE1F5FE96100D5A23F /* NetworkManagement */,
+				3499C8B21F5FE96100D5A23F /* NetworkRouter */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3499C8AE1F5FE96100D5A23F /* NetworkManagement */ = {
+			isa = PBXGroup;
+			children = (
+				3499C8AF1F5FE96100D5A23F /* InterfaceConst.h */,
+				3499C8B01F5FE96100D5A23F /* NetworkManagement.h */,
+				3499C8B11F5FE96100D5A23F /* NetworkManagement.m */,
+			);
+			path = NetworkManagement;
+			sourceTree = "<group>";
+		};
+		3499C8B21F5FE96100D5A23F /* NetworkRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3499C8B31F5FE96100D5A23F /* NetworkRouter.h */,
+				3499C8B41F5FE96100D5A23F /* NetworkRouter.m */,
+			);
+			path = NetworkRouter;
+			sourceTree = "<group>";
+		};
+		3499C8BD1F5FF4A500D5A23F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3499C8BE1F5FF4A500D5A23F /* TestModel.h */,
+				3499C8BF1F5FF4A500D5A23F /* TestModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3499C8C01F5FF4A500D5A23F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3499C8C11F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.h */,
+				3499C8C21F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.m */,
+				3499C8C31F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49615996E99A95D3187A77E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB71E3756F015783AA57E6D6 /* Pods-RSMasonryDemo.debug.xcconfig */,
+				0FD3E33D2369B2EE49CC4D21 /* Pods-RSMasonryDemo.release.xcconfig */,
+				D041C58AB230E08089FE9302 /* Pods-RSMasonryDemoTests.debug.xcconfig */,
+				B59805209C17C3226F6622D8 /* Pods-RSMasonryDemoTests.release.xcconfig */,
+				06B7F58E57E9D4CFA86AFD71 /* Pods-RSMasonryDemoUITests.debug.xcconfig */,
+				96ADD6244969F231E6E6946C /* Pods-RSMasonryDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3499C76F1F5F910500D5A23F /* RSMasonryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3499C79D1F5F910600D5A23F /* Build configuration list for PBXNativeTarget "RSMasonryDemo" */;
+			buildPhases = (
+				D84595B1DE83842C146C7D9D /* [CP] Check Pods Manifest.lock */,
+				3499C76C1F5F910500D5A23F /* Sources */,
+				3499C76D1F5F910500D5A23F /* Frameworks */,
+				3499C76E1F5F910500D5A23F /* Resources */,
+				332D0504FB37B29A4203A3B6 /* [CP] Embed Pods Frameworks */,
+				B9591CB73C72CE789BE3BA08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSMasonryDemo;
+			productName = RSMasonryDemo;
+			productReference = 3499C7701F5F910500D5A23F /* RSMasonryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3499C7881F5F910500D5A23F /* RSMasonryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3499C7A01F5F910600D5A23F /* Build configuration list for PBXNativeTarget "RSMasonryDemoTests" */;
+			buildPhases = (
+				CD7A79B2E8A49AE6CB32B155 /* [CP] Check Pods Manifest.lock */,
+				3499C7851F5F910500D5A23F /* Sources */,
+				3499C7861F5F910500D5A23F /* Frameworks */,
+				3499C7871F5F910500D5A23F /* Resources */,
+				3F9EBBD5EB093B649BC9C11C /* [CP] Embed Pods Frameworks */,
+				6FE3A94ADFAA15FE2BD91437 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3499C78B1F5F910500D5A23F /* PBXTargetDependency */,
+			);
+			name = RSMasonryDemoTests;
+			productName = RSMasonryDemoTests;
+			productReference = 3499C7891F5F910500D5A23F /* RSMasonryDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3499C7931F5F910600D5A23F /* RSMasonryDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3499C7A31F5F910600D5A23F /* Build configuration list for PBXNativeTarget "RSMasonryDemoUITests" */;
+			buildPhases = (
+				8026232ECDDE7C7573E297C2 /* [CP] Check Pods Manifest.lock */,
+				3499C7901F5F910600D5A23F /* Sources */,
+				3499C7911F5F910600D5A23F /* Frameworks */,
+				3499C7921F5F910600D5A23F /* Resources */,
+				E4B632BF74CA037E829DF2A6 /* [CP] Embed Pods Frameworks */,
+				B02B64E2828FAFF7A3E7A6EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3499C7961F5F910600D5A23F /* PBXTargetDependency */,
+			);
+			name = RSMasonryDemoUITests;
+			productName = RSMasonryDemoUITests;
+			productReference = 3499C7941F5F910600D5A23F /* RSMasonryDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3499C7681F5F910500D5A23F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					3499C76F1F5F910500D5A23F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					3499C7881F5F910500D5A23F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3499C76F1F5F910500D5A23F;
+					};
+					3499C7931F5F910600D5A23F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3499C76F1F5F910500D5A23F;
+					};
+				};
+			};
+			buildConfigurationList = 3499C76B1F5F910500D5A23F /* Build configuration list for PBXProject "RSMasonryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3499C7671F5F910500D5A23F;
+			productRefGroup = 3499C7711F5F910500D5A23F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3499C76F1F5F910500D5A23F /* RSMasonryDemo */,
+				3499C7881F5F910500D5A23F /* RSMasonryDemoTests */,
+				3499C7931F5F910600D5A23F /* RSMasonryDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3499C76E1F5F910500D5A23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3499C8C61F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.xib in Resources */,
+				3499C7831F5F910500D5A23F /* LaunchScreen.storyboard in Resources */,
+				3499C7801F5F910500D5A23F /* Assets.xcassets in Resources */,
+				3499C77E1F5F910500D5A23F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3499C7871F5F910500D5A23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3499C7921F5F910600D5A23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332D0504FB37B29A4203A3B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSMasonryDemo/Pods-RSMasonryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F9EBBD5EB093B649BC9C11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSMasonryDemoTests/Pods-RSMasonryDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE3A94ADFAA15FE2BD91437 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSMasonryDemoTests/Pods-RSMasonryDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8026232ECDDE7C7573E297C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B02B64E2828FAFF7A3E7A6EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSMasonryDemoUITests/Pods-RSMasonryDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9591CB73C72CE789BE3BA08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSMasonryDemo/Pods-RSMasonryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7A79B2E8A49AE6CB32B155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D84595B1DE83842C146C7D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B632BF74CA037E829DF2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSMasonryDemoUITests/Pods-RSMasonryDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3499C76C1F5F910500D5A23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3499C7DF1F5F987400D5A23F /* FifthLayerTower.m in Sources */,
+				3499C77B1F5F910500D5A23F /* ViewController.m in Sources */,
+				3499C7E01F5F987400D5A23F /* FirstLayerTower.m in Sources */,
+				3499C7E31F5F987400D5A23F /* SecondLayerTower.m in Sources */,
+				3499C7DD1F5F987400D5A23F /* BaseViewController.m in Sources */,
+				3499C7DE1F5F987400D5A23F /* EighthLayerTower.m in Sources */,
+				3499C7E51F5F987400D5A23F /* SixthLayerTower.m in Sources */,
+				3499C7E21F5F987400D5A23F /* NinthLayerTower.m in Sources */,
+				3499C7E11F5F987400D5A23F /* FourthLayerTower.m in Sources */,
+				3499C7C61F5F93EE00D5A23F /* TableViewController.m in Sources */,
+				3499C7E41F5F987400D5A23F /* SeventhLayerTower.m in Sources */,
+				3499C8B61F5FE96100D5A23F /* NetworkManagement.m in Sources */,
+				3499C8C51F5FF4A500D5A23F /* EighthLayerTowerTableViewCell.m in Sources */,
+				3499C7781F5F910500D5A23F /* AppDelegate.m in Sources */,
+				3499C8C41F5FF4A500D5A23F /* TestModel.m in Sources */,
+				3499C8B71F5FE96100D5A23F /* NetworkRouter.m in Sources */,
+				3499C7751F5F910500D5A23F /* main.m in Sources */,
+				3499C7E61F5F987400D5A23F /* ThirdLayerTower.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3499C7851F5F910500D5A23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3499C78E1F5F910600D5A23F /* RSMasonryDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3499C7901F5F910600D5A23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3499C7991F5F910600D5A23F /* RSMasonryDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3499C78B1F5F910500D5A23F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3499C76F1F5F910500D5A23F /* RSMasonryDemo */;
+			targetProxy = 3499C78A1F5F910500D5A23F /* PBXContainerItemProxy */;
+		};
+		3499C7961F5F910600D5A23F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3499C76F1F5F910500D5A23F /* RSMasonryDemo */;
+			targetProxy = 3499C7951F5F910600D5A23F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3499C77C1F5F910500D5A23F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3499C77D1F5F910500D5A23F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3499C7811F5F910500D5A23F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3499C7821F5F910500D5A23F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3499C79B1F5F910600D5A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3499C79C1F5F910600D5A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3499C79E1F5F910600D5A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB71E3756F015783AA57E6D6 /* Pods-RSMasonryDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSMasonryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSMasonryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3499C79F1F5F910600D5A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD3E33D2369B2EE49CC4D21 /* Pods-RSMasonryDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSMasonryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSMasonryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3499C7A11F5F910600D5A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D041C58AB230E08089FE9302 /* Pods-RSMasonryDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSMasonryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSMasonryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSMasonryDemo.app/RSMasonryDemo";
+			};
+			name = Debug;
+		};
+		3499C7A21F5F910600D5A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59805209C17C3226F6622D8 /* Pods-RSMasonryDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSMasonryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSMasonryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSMasonryDemo.app/RSMasonryDemo";
+			};
+			name = Release;
+		};
+		3499C7A41F5F910600D5A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B7F58E57E9D4CFA86AFD71 /* Pods-RSMasonryDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSMasonryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSMasonryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSMasonryDemo;
+			};
+			name = Debug;
+		};
+		3499C7A51F5F910600D5A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96ADD6244969F231E6E6946C /* Pods-RSMasonryDemoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RSMasonryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSMasonryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSMasonryDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3499C76B1F5F910500D5A23F /* Build configuration list for PBXProject "RSMasonryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3499C79B1F5F910600D5A23F /* Debug */,
+				3499C79C1F5F910600D5A23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3499C79D1F5F910600D5A23F /* Build configuration list for PBXNativeTarget "RSMasonryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3499C79E1F5F910600D5A23F /* Debug */,
+				3499C79F1F5F910600D5A23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3499C7A01F5F910600D5A23F /* Build configuration list for PBXNativeTarget "RSMasonryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3499C7A11F5F910600D5A23F /* Debug */,
+				3499C7A21F5F910600D5A23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3499C7A31F5F910600D5A23F /* Build configuration list for PBXNativeTarget "RSMasonryDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3499C7A41F5F910600D5A23F /* Debug */,
+				3499C7A51F5F910600D5A23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3499C7681F5F910500D5A23F /* Project object */;
+}
