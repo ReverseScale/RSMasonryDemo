@@ -27,6 +27,7 @@
                                  @"SeventhLayerTower",
                                  @"EighthLayerTower",
                                  @"NinthLayerTower"];
+    
     self.controllerTitleArray = @[@"第一层",
                                   @"第二层",
                                   @"第三层",
@@ -43,8 +44,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark -- TableView Delegate
-
+#pragma mark -- TableView
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *className = self.viewControllerArray[indexPath.row];
     Class class = NSClassFromString(className);
