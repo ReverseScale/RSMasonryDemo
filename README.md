@@ -1,26 +1,40 @@
 # RSMasonryDemo
-OC 版 Masonry 技能塔，带你用 Masonry 打怪升级
+
+OC 版 Masonry 技能塔，带你用 Masonry 打怪升级 🤖
+
+> 由浅入深的教你使用 Masonry 进行相对布局。
+
+![](http://og1yl0w9z.bkt.clouddn.com/17-12-18/79869793.jpg)
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
 ![](https://img.shields.io/badge/download-4.5MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
-由浅入深的教你使用 Masonry 进行相对布局。
+### 🤖 要求
 
-| 名称 |1.列表页 |2.基本布局页 |3.相应监听页 |2.更新列表页 |3.九宫格页 |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-9-6/28465826.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-9-6/39071898.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-9-6/900865.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-9-6/44153768.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-9-6/78823365.jpg) |
-| 描述 | 通过 storyboard 搭建基本框架 | 基本的相对布局 | 根据键盘高度相应布局 | 根据网络数据自适应高度布局 | 九宫格相对布局 |
+* iOS 8.0+
+* Xcode 7.0+
+* Objective-C
 
+### 🎨 测试 UI 什么样子？
 
-## Advantage 框架的优势
+|1.列表页 |2.基本布局页 |3.相应监听页 |2.更新列表页 |3.九宫格页 |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/94272819.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/78736004.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/13903426.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/45049499.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/80789116.jpg) |
+| 通过 storyboard 搭建基本框架 | 基本的相对布局 | 根据键盘高度相应布局 | 根据网络数据自适应高度布局 | 九宫格相对布局 |
+
+### 🚀 准备开始
+#### 框架的优势
 * 1.文件少，代码简洁
 * 2.生动形象，学习曲线好
 * 3.加入网络数据加载框架
 * 4.具备较高自定义性
 
-## Installation 安装
+### 🎯 安装方法
+
+#### 安装
+
 ### 1.手动安装:
 `下载Demo后,将功能文件夹拖入到项目中, 导入头文件后开始使用。`
 ### 2.CocoaPods安装:
@@ -34,28 +48,53 @@ pod install
 ```
 > 如果 pod search 发现不是最新版本，在终端执行pod setup命令更新本地spec镜像缓存，重新搜索就OK了
 
-## Requirements 要求
-* iOS 7+
-* Xcode 8+
 
+### 🛠 配置
 
-## Usage 使用方法
-### 第一步 引入头文件
-```
-#import <Masonry.h>
-```
-### 第二步 开始学习
+#### 开始学习
 
 去打怪升级吧~
 
-使用简单、效率高效、进程安全~~~如果你有更好的建议,希望不吝赐教!
+如果觉得力有不逮，就充一毛，又不是真找你要钱，给个 Stat 就好了✨
 
+![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/72661225.jpg)
 
-## License 许可证
-RSMasonryDemo 使用 MIT 许可证，详情见 LICENSE 文件。
+### 📝 深入学习
 
+这里只是基础教学，使用并不规范，如果想要深入学习，可以前往GitHub-SnapKit主页！（https://github.com/SnapKit）
 
-## Contact 联系方式:
-* WeChat : WhatsXie
-* Email : ReverseScale@iCloud.com
-* Blog : https://reversescale.github.io
+OC Masonry：https://github.com/SnapKit/Masonry
+
+Swift SnapKit：https://github.com/SnapKit/SnapKit
+
+### ⚖ 协议
+
+```
+MIT License
+
+Copyright (c) 2017 ReverseScale
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### 😬 联系
+
+* 微信 : WhatsXie
+* 邮件 : ReverseScale@iCloud.com
+* 博客 : https://reversescale.github.io
