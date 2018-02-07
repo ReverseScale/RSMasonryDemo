@@ -4,7 +4,7 @@ OC 版 Masonry 技能塔，带你用 Masonry 打怪升级 🤖
 
 > 由浅入深的教你使用 Masonry 进行相对布局。
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-12-18/79869793.jpg)
+![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/66774656.jpg)
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
