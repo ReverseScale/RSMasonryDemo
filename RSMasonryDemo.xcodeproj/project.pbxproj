@@ -184,7 +184,7 @@
 				3499C7C51F5F93EE00D5A23F /* TableViewController.m */,
 				3499C7791F5F910500D5A23F /* ViewController.h */,
 				3499C77A1F5F910500D5A23F /* ViewController.m */,
-				3499C7C71F5F987400D5A23F /* BaseViewController */,
+				3499C7C71F5F987400D5A23F /* Base */,
 				3499C7CA1F5F987400D5A23F /* Tower */,
 				3499C8AA1F5FE96100D5A23F /* Network */,
 				3499C77C1F5F910500D5A23F /* Main.storyboard */,
@@ -222,20 +222,18 @@
 			path = RSMasonryDemoUITests;
 			sourceTree = "<group>";
 		};
-		3499C7C71F5F987400D5A23F /* BaseViewController */ = {
+		3499C7C71F5F987400D5A23F /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				3499C7C81F5F987400D5A23F /* BaseViewController.h */,
 				3499C7C91F5F987400D5A23F /* BaseViewController.m */,
 			);
-			path = BaseViewController;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		3499C7CA1F5F987400D5A23F /* Tower */ = {
 			isa = PBXGroup;
 			children = (
-				3499C8BD1F5FF4A500D5A23F /* Model */,
-				3499C8C01F5FF4A500D5A23F /* View */,
 				3499C7CF1F5F987400D5A23F /* FirstLayerTower.h */,
 				3499C7D01F5F987400D5A23F /* FirstLayerTower.m */,
 				3499C7D51F5F987400D5A23F /* SecondLayerTower.h */,
@@ -254,6 +252,8 @@
 				3499C7CC1F5F987400D5A23F /* EighthLayerTower.m */,
 				3499C7D31F5F987400D5A23F /* NinthLayerTower.h */,
 				3499C7D41F5F987400D5A23F /* NinthLayerTower.m */,
+				3499C8BD1F5FF4A500D5A23F /* Model */,
+				3499C8C01F5FF4A500D5A23F /* View */,
 			);
 			path = Tower;
 			sourceTree = "<group>";
@@ -509,13 +509,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSMasonryDemoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B02B64E2828FAFF7A3E7A6EC /* [CP] Copy Pods Resources */ = {
@@ -554,13 +557,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSMasonryDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D84595B1DE83842C146C7D9D /* [CP] Check Pods Manifest.lock */ = {
@@ -569,13 +575,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSMasonryDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E4B632BF74CA037E829DF2A6 /* [CP] Embed Pods Frameworks */ = {
