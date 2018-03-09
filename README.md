@@ -1,15 +1,18 @@
 # RSMasonryDemo
 
+![](https://img.shields.io/badge/platform-iOS-red.svg) 
+![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
+![](https://img.shields.io/badge/download-4.5MB-brightgreen.svg)
+![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
+
+[EN](#Requirements) | [中文](#中文说明)
+
 OC Masonry skill tower, take you to upgrade with Masonry Daguai 🤖
 
 > Shallow teach you to use Masonry relative layout.
 
 ![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/66774656.jpg)
 
-![](https://img.shields.io/badge/platform-iOS-red.svg) 
-![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
-![](https://img.shields.io/badge/download-4.5MB-brightgreen.svg)
-![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 ### 🤖 Requirements
 
