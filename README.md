@@ -12,8 +12,7 @@ OC Masonry skill tower, take you to upgrade with Masonry Daguai 🤖
 
 > Shallow teach you to use Masonry relative layout.
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/66774656.jpg)
-
+![](https://s2.ax1x.com/2019/03/27/AaUHA0.jpg)
 
 ### 🤖 Requirements
 
