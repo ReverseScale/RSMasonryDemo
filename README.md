@@ -62,6 +62,39 @@ If you feel that you have enough power, you will find it hard to find a Stat
 
 ![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/72661225.jpg)
 
+#### Update the native VFL layout
+
+VFL is a visual format language that apple USES for its AutoLayout layout.
+```Swift
+UIView *blueView = [[UIView alloc] init];
+    blueView.backgroundColor = [UIColor blueColor];
+    blueView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:blueView];
+    
+    UIView *redView = [[UIView alloc] init];
+    redView.backgroundColor = [UIColor redColor];
+    redView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:redView];
+    
+    // 间距
+    NSNumber *margin = @20;
+    
+    // 添加水平方向的约束
+    NSString *vflH = @"H:|-margin-[blueView]-margin-[redView(==blueView)]-margin-|";
+    NSDictionary *views = NSDictionaryOfVariableBindings(blueView, redView);
+    NSDictionary *mertrics = NSDictionaryOfVariableBindings(margin);
+    NSArray *constraints = [NSLayoutConstraint constraintsWithVisualFormat:vflH options:NSLayoutFormatAlignAllTop | NSLayoutFormatAlignAllBottom metrics:mertrics views:views];
+    [self.view addConstraints:constraints];
+    
+    // 添加竖直方向的间距
+    NSNumber *height = @40;
+    NSString *vflV = @"V:[blueView(height)]-margin-|";
+    NSDictionary *mertrics2 = NSDictionaryOfVariableBindings(margin, height);
+    NSArray *constraints2 = [NSLayoutConstraint constraintsWithVisualFormat:vflV options:kNilOptions metrics:mertrics2 views:views];
+    [self.view addConstraints:constraints2];
+```
+
+
 ### 📝 Submission
 
 Here is just basic teaching, not standardized, if you want further study, you can go to GitHub-SnapKit home page!（https://github.com/SnapKit）
