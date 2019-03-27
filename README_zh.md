@@ -1,4 +1,5 @@
 ---
+[EN](https://github.com/ReverseScale/RSMasonryDemo) | [中文](https://github.com/ReverseScale/RSMasonryDemo/blob/master/README_zh.md)
 
 OC 版 Masonry 技能塔，带你用 Masonry 打怪升级 🤖
 
