@@ -5,7 +5,8 @@
 ![](https://img.shields.io/badge/download-4.5MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
-[EN](#Requirements) | [中文](#中文说明)
+[EN](https://github.com/ReverseScale/RSMasonryDemo) | [中文](https://github.com/ReverseScale/RSMasonryDemo/blob/master/README_zh.md)
+
 
 OC Masonry skill tower, take you to upgrade with Masonry Daguai 🤖
 
