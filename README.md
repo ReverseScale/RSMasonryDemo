@@ -60,7 +60,7 @@ Go to Daguai to upgrade it ~
 
 If you feel that you have enough power, you will find it hard to find a Stat
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/72661225.jpg)
+🤪🤪🤪
 
 #### Update the native VFL layout
 
