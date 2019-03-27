@@ -26,7 +26,7 @@ OC Masonry skill tower, take you to upgrade with Masonry Daguai 🤖
 |1.List Page | 2.Basic Layout Page | 3.Monitor Page | 4.Update List Page | 5.Jiugongge Page |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | ![](https://s2.ax1x.com/2019/03/27/AaUMpF.png) | ![](https://s2.ax1x.com/2019/03/27/AaUZT0.png) | ![](https://s2.ax1x.com/2019/03/27/AaUmkV.png) | ![](https://s2.ax1x.com/2019/03/27/AaUnYT.png) | ![](https://s2.ax1x.com/2019/03/27/AaUufU.png) |
-| Basic framework through storyboard | Basic relative layout | Corresponding layout according to keyboard height | Adaptive height layout based on network data | Relative layout of Jiugongge |
+| Basic framework through storyboard | Basic relative layout | Layout according to keyboard height | Adaptive height on network data | Relative layout of Jiugongge |
 
 ### 🚀 Getting started
 #### The advantages of the framework
