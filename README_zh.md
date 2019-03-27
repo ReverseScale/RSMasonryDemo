@@ -57,8 +57,7 @@ pod install
 
 如果觉得力有不逮，就充一毛，又不是真找你要钱，给个 Stat 就好了✨
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-2-7/72661225.jpg)
-
+🤪🤪🤪
 
 #### 更新原生 VFL 布局
 
